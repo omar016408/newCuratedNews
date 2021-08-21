@@ -1,0 +1,651 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>The Curated News Blogger</title>
+      <meta name='robots' content='noindex, nofollow' />
+      <meta name="robots" content="noindex,nofollow" />
+      <base target="_blank" />
+      <link rel="shortcut icon" type="image/jpg" href="resources/img/favicon.png">
+      <link rel='dns-prefetch' />
+      <link rel="stylesheet" href="vendors/css/font-awesome.css">
+      <link rel="stylesheet" href="vendors/css/bootstrap.css">
+      <script type="text/javascript">
+         /* <![CDATA[ */
+         function addLoadEvent(func) {
+         	var oldonload = window.onload;
+         	if (typeof window.onload != 'function') {
+         		window.onload = func;
+         	} else {
+         		window.onload = function () {
+         			oldonload();
+         			func();
+         		}
+         	}
+         }
+         /* ]]> */
+      </script>
+      <script type="text/javascript">
+         window._wpemojiSettings = {"baseUrl":"https:\/\/s0.wp.com\/wp-content\/mu-plugins\/wpcom-smileys\/twemoji\/2\/72x72\/","ext":".png","svgUrl":"https:\/\/s0.wp.com\/wp-content\/mu-plugins\/wpcom-smileys\/twemoji\/2\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/s0.wp.com\/wp-includes\/js\/wp-emoji-release.min.js?m=1625065786h&ver=5.8"}};
+         !function(e,a,t){var n,r,o,i=a.createElement("canvas"),p=i.getContext&&i.getContext("2d");function s(e,t){var a=String.fromCharCode;p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,e),0,0);e=i.toDataURL();return p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,t),0,0),e===i.toDataURL()}function c(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(o=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},r=0;r<o.length;r++)t.supports[o[r]]=function(e){if(!p||!p.fillText)return!1;switch(p.textBaseline="top",p.font="600 32px Arial",e){case"flag":return s([127987,65039,8205,9895,65039],[127987,65039,8203,9895,65039])?!1:!s([55356,56826,55356,56819],[55356,56826,8203,55356,56819])&&!s([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]);case"emoji":return!s([10084,65039,8205,55357,56613],[10084,65039,8203,55357,56613])}return!1}(o[r]),t.supports.everything=t.supports.everything&&t.supports[o[r]],"flag"!==o[r]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[o[r]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(n=t.source||{}).concatemoji?c(n.concatemoji):n.wpemoji&&n.twemoji&&(c(n.twemoji),c(n.wpemoji)))}(window,document,window._wpemojiSettings);
+      </script>
+      <style type="text/css">
+         img.wp-smiley,
+         img.emoji {
+         display: inline !important;
+         border: none !important;
+         box-shadow: none !important;
+         height: 1em !important;
+         width: 1em !important;
+         margin: 0 .07em !important;
+         vertical-align: -0.1em !important;
+         background: none !important;
+         padding: 0 !important;
+         }
+      </style>
+      <link rel="stylesheet" href="vendors/css/aos.css">
+      <link rel='stylesheet' id='all-css-0-1' href='resources/css/wpcom-smileys.css' type='text/css' media='all' />
+      <link rel='stylesheet' id='tonal-font-css'  href='resources/img/fontoxygen.css' media='all' />
+      <link rel='stylesheet' id='all-css-2-1' href='resources/css/stylesheetwp.css' type='text/css' media='all' />
+      <link rel="stylesheet" href="resources/css/style.css">
+      <style id='wp-block-library-inline-css'>
+         .has-text-align-justify {
+         text-align:justify;
+         }
+      </style>
+      <link rel='stylesheet' id='print-css-3-1' href='resources/css/stylesheetwp2.css' type='text/css' media='print' />
+      <style id='jetpack-global-styles-frontend-style-inline-css'>
+         :root { --font-headings: unset; --font-base: unset; --font-headings-default: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif; --font-base-default: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;}
+      </style>
+      <link rel='stylesheet' id='all-css-6-1' href='resources/css/stylesheetwp3.css' type='text/css' media='all' />
+      <script id='jetpack-iframe-embed-js-extra'>
+         var _previewSite = {"siteURL":"https:\/\/tonaldemo.wordpress.com"};
+      </script>
+      <script crossorigin='anonymous' type='text/javascript' src='https://s0.wp.com/_static/??-eJx9jsEOAiEMRH/ILlGzrh6M38KyXQJSQCjR/Xt78GAMMWnSpPM6M+qZwUUT2oJVeZlHw7J91kAuDr7u1D8IyNmiGb9hkyJjZEUNcmjWRflBztrcwa1FEwLSjEv3+OsheTlVJqxVW+yolGYXEFrFIkBkqbqmDlcCQy7ptYl2o+v+dJgu53Eaj/4NQbpgYg=='></script>
+      <script type='text/javascript'>
+         window.addEventListener( 'DOMContentLoaded', function() {
+         	rltInitialize( {"token":null,"iframeOrigins":["https:\/\/widgets.wp.com"]} );
+         } );
+      </script>
+      <link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://tonaldemo.wordpress.com/xmlrpc.php?rsd" />
+      <link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://s0.wp.com/wp-includes/wlwmanifest.xml" />
+      <meta name="generator" content="WordPress.com" />
+      <link rel='shortlink' href='https://wp.me/4pUQE' />
+      <meta name="theme-color" content="#ffffff" />
+      <style type="text/css">
+         body {
+         background: #ffffff;
+         }
+         #page{
+         z-index: 9999;
+         }
+         #page:before, #page:after {
+         background-color: #E5E5E5;
+         z-index: 9999;
+         }
+         #page {
+         z-index: 9999;
+         }
+         h1,
+         h2,
+         h3,
+         h4,
+         h5,
+         h6,
+         a,
+         a:visited {
+         color: #000000;
+         }
+         body,
+         button,
+         input,
+         select,
+         textarea,
+         a:hover {
+         color: #191919;
+         }
+         .header-area{
+         box-shadow: none;
+        
+         }
+         .header-area.header-sticky{
+            min-height: 100px !important;
+         }
+         .blog-logo{
+         width:300px;
+         max-width:100%;
+         }
+         @media (max-width:768px){
+         .blog-logo {
+         width:250px !important;
+         }
+         }
+         @media (max-width:576px){
+         .blog-logo {
+         width:220px !important;
+         }
+         }
+         @media (max-width:220px){
+         .blog-logo {
+         width:81px !important;
+         }
+         }
+      </style>
+      <meta name="application-name" content="Tonal" />
+      <meta name="msapplication-window" content="width=device-width;height=device-height" />
+      <meta name="msapplication-tooltip" content="Let your content set the tone" />
+      <meta name="msapplication-task" content="name=Subscribe;action-uri=https://tonaldemo.wordpress.com/feed/;icon-uri=https://s0.wp.com/i/favicon.ico" />
+      <meta name="msapplication-task" content="name=Sign up for a free blog;action-uri=http://wordpress.com/signup/;icon-uri=https://s0.wp.com/i/favicon.ico" />
+      <meta name="msapplication-task" content="name=WordPress.com Support;action-uri=http://support.wordpress.com/;icon-uri=https://s0.wp.com/i/favicon.ico" />
+      <meta name="msapplication-task" content="name=WordPress.com Forums;action-uri=http://forums.wordpress.com/;icon-uri=https://s0.wp.com/i/favicon.ico" />
+      <meta name="description" content="Let your content set the tone" />
+   </head>
+   <body class="home blog customizer-styles-applied widgets-hidden highlander-enabled highlander-light">
+      <div id="page" class="hfeed site">
+       <!-------------------------------start of header area-------------------------------->
+      <header class="header-area header-sticky slideInDown header-text">
+         <div class="container-fluid">
+            <div class="row">
+               <div class="col-12">
+                  <nav class="main-nav">
+                     <!-- ***** Logo Start ***** -->
+                     <a class="logo" href="#main-b">
+                        <h4><img src="resources/img/curatedbloggertopbanner.png" alt="logo" class="blog-logo"></h4>
+                     </a>
+                     <!-- ***** Logo End ***** -->
+                     <!-- ***** Menu Start ***** -->
+                     <ul class="nav">
+                        <li><a href="index.html" target="blank">HOME</a></li>
+                        <li><a href="news.html" target="blank">CURATED NEWS</a></li>
+                        <li><a href="curatedblog.html" target="blank">OUR BLOG</a></li>
+                     </ul>
+                     <a class='menu-trigger'>
+                     <span>Menu</span>
+                     </a>
+                     <!-- ***** Menu End ***** -->
+                  </nav>
+               </div>
+            </div>
+         </div>
+      </header>
+      <!-------------------------------end of header area--------------------------------->
+         <div id="masthead" role="banner">
+            <div class="site-branding">
+               <h1 class="site-title"><a href="https://tonaldemo.wordpress.com/?demo" rel="home">Tonal</a></h1>
+               <h2 class="site-description">Let your content set the tone</h2>
+            </div>
+         </div>
+         <!-- #masthead .site-header -->
+         <div id="content" class="site-content">
+            <div id="primary" class="content-area">
+               <main id="main" class="site-main" role="main">
+                  <article id="post-128" class="post-128 post type-post status-publish format-image has-post-thumbnail hentry category-uncategorized post_format-post-format-image" data-aos="fade-up" data-aos-delay="300">
+                     <a href="https://tonaldemo.wordpress.com/type/image/?demo" title="All Image posts">
+                     <span class="screen-reader-text">Image</span>
+                     <span class="entry-format icon-block"></span>
+                     </a>
+                     <div class="entry-header fullwidth-block">
+                        <h1 class="entry-title">
+                           <a href="https://tonaldemo.wordpress.com/2014/03/07/setting-the-mood/?demo" rel="bookmark">Setting the mood</a>
+                        </h1>
+                     </div>
+                     <!-- .entry-header .fullwidth-block -->
+                     <div class="center-block entry-content">
+                        <p><img loading="lazy" data-attachment-id="198" data-permalink="https://tonaldemo.wordpress.com/2014/03/07/setting-the-mood/tumblr_n0hq1kxq7j1st5lhmo1_1280/" data-orig-file="https://tonaldemo.files.wordpress.com/2014/03/tumblr_n0hq1kxq7j1st5lhmo1_1280-e1394300549246.jpg" data-orig-size="1280,556" data-comments-opened="0" data-image-meta="{&quot;aperture&quot;:&quot;14&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;Canon EOS 450D&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;1287573187&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;55&quot;,&quot;iso&quot;:&quot;200&quot;,&quot;shutter_speed&quot;:&quot;0.016666666666667&quot;,&quot;title&quot;:&quot;&quot;}" data-image-title="tumblr_n0hq1kxq7j1st5lhmo1_1280" data-image-description="" data-image-caption="" data-medium-file="https://tonaldemo.files.wordpress.com/2014/03/tumblr_n0hq1kxq7j1st5lhmo1_1280-e1394300549246.jpg?w=300" data-large-file="https://tonaldemo.files.wordpress.com/2014/03/tumblr_n0hq1kxq7j1st5lhmo1_1280-e1394300549246.jpg?w=640" class="alignnone  wp-image-198" alt="tumblr_n0hq1kxq7j1st5lhmo1_1280" src="https://tonaldemo.files.wordpress.com/2014/03/tumblr_n0hq1kxq7j1st5lhmo1_1280-e1394300549246.jpg?w=1280&#038;h=556" width="1280" height="556" srcset="https://tonaldemo.files.wordpress.com/2014/03/tumblr_n0hq1kxq7j1st5lhmo1_1280-e1394300549246.jpg 1280w, https://tonaldemo.files.wordpress.com/2014/03/tumblr_n0hq1kxq7j1st5lhmo1_1280-e1394300549246.jpg?w=150&amp;h=65 150w, https://tonaldemo.files.wordpress.com/2014/03/tumblr_n0hq1kxq7j1st5lhmo1_1280-e1394300549246.jpg?w=300&amp;h=130 300w, https://tonaldemo.files.wordpress.com/2014/03/tumblr_n0hq1kxq7j1st5lhmo1_1280-e1394300549246.jpg?w=768&amp;h=334 768w, https://tonaldemo.files.wordpress.com/2014/03/tumblr_n0hq1kxq7j1st5lhmo1_1280-e1394300549246.jpg?w=1024&amp;h=445 1024w" sizes="(max-width: 1280px) 100vw, 1280px" /></p>
+                        <p>Mollis curabitur odio vulputate sed ante himenaeos est velit congue dolor phasellus euismod ullamcorper pretium sodales pulvinar aliquet non egestas fusce himenaeos hendrerit lacus rhoncus, tristique sapien ante bibendum dictumst quis tristique turpis aliquet nam etiam, quam ad ante bibendum mattis curae at eget rhoncus posuere dui nullam ut potenti velit facilisis augue, lectus vulputate turpis urna quisque condimentum tortor, vivamus elementum malesuada etiam porta integer..</p>
+                     </div>
+                     <!-- .center-block .entry-content -->
+                     <footer class="center-block entry-meta">
+                        <span class="posted-on">Posted on <a href="https://tonaldemo.wordpress.com/2014/03/07/setting-the-mood/?demo" rel="bookmark"><time class="entry-date published" datetime="2014-03-07T23:25:57+00:00">March 7, 2014</time><time class="updated" datetime="2014-03-08T17:43:33+00:00">March 8, 2014</time></a></span><span class="byline"> by <span class="author vcard"><a class="url fn n" href="https://tonaldemo.wordpress.com/author/themedemos/?demo">Joan Smith</a></span></span>
+                        <span class="cat-links">
+                        Posted in <a href="https://tonaldemo.wordpress.com/category/uncategorized/?demo" rel="category tag">Uncategorized</a>			</span>
+                     </footer>
+                     <!-- .entry-meta -->
+                  </article>
+                  <!-- #post-## -->
+                  <article id="post-81" class="post-81 post type-post status-publish format-image has-post-thumbnail hentry category-artwork category-photos category-writing tag-panache post_format-post-format-image" data-aos="fade-up" data-aos-delay="300">
+                     <a href="https://tonaldemo.wordpress.com/type/image/?demo" title="All Image posts">
+                     <span class="screen-reader-text">Image</span>
+                     <span class="entry-format icon-block"></span>
+                     </a>
+                     <div class="entry-header fullwidth-block">
+                        <h1 class="entry-title">
+                           <a href="https://tonaldemo.wordpress.com/2011/07/07/expressions-through-the-screen/?demo" rel="bookmark">Expressions through the&nbsp;screen</a>
+                        </h1>
+                     </div>
+                     <!-- .entry-header .fullwidth-block -->
+                     <div class="center-block entry-content">
+                        <p>Lorem ipsum nostra fermentum iaculis blandit ullamcorper, cursus nullam eros facilisis felis netus, sapien consectetur nisi mauris nullam consequat sapien congue volutpat congue inceptos malesuada himenaeos viverra amet auctor, cras integer sem pretium vestibulum vitae convallis varius. Rutrum nisi a hac mi sollicitudin sit odio nisi praesent aenean, luctus justo porttitor orci non suscipit sollicitudin nunc vitae habitant, dolor per sapien pharetra sit placerat ac vel tortor auctor ornare curabitur torquent orci neque a.</p>
+                        <p><img loading="lazy" data-attachment-id="157" data-permalink="https://tonaldemo.wordpress.com/2011/07/07/expressions-through-the-screen/tumblr_mxrva40plz1st5lhmo1_1280/" data-orig-file="https://tonaldemo.files.wordpress.com/2011/07/tumblr_mxrva40plz1st5lhmo1_1280-e1394300785426.jpg" data-orig-size="1280,771" data-comments-opened="0" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;}" data-image-title="Expressions" data-image-description="" data-image-caption="" data-medium-file="https://tonaldemo.files.wordpress.com/2011/07/tumblr_mxrva40plz1st5lhmo1_1280-e1394300785426.jpg?w=300" data-large-file="https://tonaldemo.files.wordpress.com/2011/07/tumblr_mxrva40plz1st5lhmo1_1280-e1394300785426.jpg?w=640" class="alignnone  wp-image-157" alt="Expressions" src="https://tonaldemo.files.wordpress.com/2011/07/tumblr_mxrva40plz1st5lhmo1_1280-e1394300785426.jpg?w=1280&#038;h=771" width="1280" height="771" srcset="https://tonaldemo.files.wordpress.com/2011/07/tumblr_mxrva40plz1st5lhmo1_1280-e1394300785426.jpg 1280w, https://tonaldemo.files.wordpress.com/2011/07/tumblr_mxrva40plz1st5lhmo1_1280-e1394300785426.jpg?w=150&amp;h=90 150w, https://tonaldemo.files.wordpress.com/2011/07/tumblr_mxrva40plz1st5lhmo1_1280-e1394300785426.jpg?w=300&amp;h=181 300w, https://tonaldemo.files.wordpress.com/2011/07/tumblr_mxrva40plz1st5lhmo1_1280-e1394300785426.jpg?w=768&amp;h=463 768w, https://tonaldemo.files.wordpress.com/2011/07/tumblr_mxrva40plz1st5lhmo1_1280-e1394300785426.jpg?w=1024&amp;h=617 1024w" sizes="(max-width: 1280px) 100vw, 1280px" /></p>
+                        <p>Nec fames semper netus felis lacinia vestibulum elit, inceptos condimentum integer etiam malesuada imperdiet condimentum, ultrices sed viverra nec bibendum fermentum nullam donec sit at metus pulvinar integer enim mollis fames, lacus quisque gravida tincidunt potenti vulputate donec.</p>
+                     </div>
+                     <!-- .center-block .entry-content -->
+                     <footer class="center-block entry-meta">
+                        <span class="posted-on">Posted on <a href="https://tonaldemo.wordpress.com/2011/07/07/expressions-through-the-screen/?demo" rel="bookmark"><time class="entry-date published" datetime="2011-07-07T19:55:20+00:00">July 7, 2011</time><time class="updated" datetime="2014-03-08T17:47:33+00:00">March 8, 2014</time></a></span><span class="byline"> by <span class="author vcard"><a class="url fn n" href="https://tonaldemo.wordpress.com/author/themedemos/?demo">Joan Smith</a></span></span>
+                        <span class="cat-links">
+                        Posted in <a href="https://tonaldemo.wordpress.com/category/artwork/?demo" rel="category tag">Artwork</a>, <a href="https://tonaldemo.wordpress.com/category/photos/?demo" rel="category tag">Photos</a>, <a href="https://tonaldemo.wordpress.com/category/writing/?demo" rel="category tag">Writing</a>			</span>
+                        <span class="tags-links">Tagged <a href="https://tonaldemo.wordpress.com/tag/panache/?demo" rel="tag">panache</a></span>		
+                     </footer>
+                     <!-- .entry-meta -->
+                  </article>
+                  <!-- #post-## -->
+                  <article id="post-79" class="post-79 post type-post status-publish format-aside hentry category-wordpress category-writing tag-punctilious post_format-post-format-aside" data-aos="fade-up" data-aos-delay="300">
+                     <a href="https://tonaldemo.wordpress.com/type/aside/?demo" title="All Aside posts">
+                     <span class="screen-reader-text">Aside</span>
+                     <span class="entry-format icon-block"></span>
+                     </a>
+                     <div class="entry-header fullwidth-block">
+                        <h1 class="entry-title">
+                           <a href="https://tonaldemo.wordpress.com/2011/07/07/a-short-post/?demo" rel="bookmark">A Short Post</a>
+                        </h1>
+                     </div>
+                     <!-- .entry-header .fullwidth-block -->
+                     <div class="center-block entry-content">
+                        <p>Sometimes a short post is all it takes to get your point across. Which is the point of this post.</p>
+                     </div>
+                     <!-- .center-block .entry-content -->
+                     <footer class="center-block entry-meta">
+                        <span class="posted-on">Posted on <a href="https://tonaldemo.wordpress.com/2011/07/07/a-short-post/?demo" rel="bookmark"><time class="entry-date published" datetime="2011-07-07T19:50:53+00:00">July 7, 2011</time><time class="updated" datetime="2014-03-08T17:25:33+00:00">March 8, 2014</time></a></span><span class="byline"> by <span class="author vcard"><a class="url fn n" href="https://tonaldemo.wordpress.com/author/themedemos/?demo">Joan Smith</a></span></span>
+                        <span class="cat-links">
+                        Posted in <a href="https://tonaldemo.wordpress.com/category/wordpress/?demo" rel="category tag">WordPress</a>, <a href="https://tonaldemo.wordpress.com/category/writing/?demo" rel="category tag">Writing</a>			</span>
+                        <span class="tags-links">Tagged <a href="https://tonaldemo.wordpress.com/tag/punctilious/?demo" rel="tag">punctilious</a></span>		
+                     </footer>
+                     <!-- .entry-meta -->
+                  </article>
+                  <!-- #post-## -->
+                  <article id="post-69" class="post-69 post type-post status-publish format-gallery hentry category-photos tag-beautiful tag-landscape post_format-post-format-gallery" data-aos="fade-up" data-aos-delay="300">
+                     <a href="https://tonaldemo.wordpress.com/type/gallery/?demo" title="All Gallery posts">
+                     <span class="screen-reader-text">Gallery</span>
+                     <span class="entry-format icon-block"></span>
+                     </a>
+                     <div class="entry-header fullwidth-block">
+                        <h1 class="entry-title">
+                           <a href="https://tonaldemo.wordpress.com/2011/07/07/textures-from-a-trip-to-dublin/?demo" rel="bookmark">Textures from a trip to&nbsp;Dublin</a>
+                        </h1>
+                     </div>
+                     <!-- .entry-header .fullwidth-block -->
+                     <div class="center-block entry-content">
+                        <div class="tiled-gallery type-rectangular tiled-gallery-unresized" data-original-width="640" data-carousel-extra='{&quot;blog_id&quot;:65282072,&quot;permalink&quot;:&quot;https:\/\/tonaldemo.wordpress.com\/2011\/07\/07\/textures-from-a-trip-to-dublin\/&quot;,&quot;likes_blog_id&quot;:65282072}' itemscope itemtype="http://schema.org/ImageGallery" >
+                           <div class="gallery-row" style="width: 640px; height: 301px;" data-original-width="640" data-original-height="301" >
+                              <div class="gallery-group images-1" style="width: 420px; height: 301px;" data-original-width="420" data-original-height="301" >
+                                 <div class="tiled-gallery-item tiled-gallery-item-large" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+                                    <meta itemprop="width" content="416">
+                                    <meta itemprop="height" content="297">
+                                    <img data-attachment-id="116" data-orig-file="https://tonaldemo.files.wordpress.com/2011/07/img_0613.jpg" data-orig-size="2448,1750" data-comments-opened="" data-image-meta="{&quot;aperture&quot;:&quot;2.4&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;iPhone 5&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;1393511636&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;4.12&quot;,&quot;iso&quot;:&quot;400&quot;,&quot;shutter_speed&quot;:&quot;0.05&quot;,&quot;title&quot;:&quot;&quot;}" data-image-title="IMG_0613" data-image-description="" data-medium-file="https://tonaldemo.files.wordpress.com/2011/07/img_0613.jpg?w=300" data-large-file="https://tonaldemo.files.wordpress.com/2011/07/img_0613.jpg?w=640" src="https://tonaldemo.files.wordpress.com/2011/07/img_0613.jpg?w=416&#038;h=297" width="416" height="297" data-original-width="416" data-original-height="297" itemprop="http://schema.org/image" title="IMG_0613" alt="IMG_0613" style="width: 416px; height: 297px;" /> 
+                                 </div>
+                              </div>
+                              <!-- close group --> 
+                              <div class="gallery-group images-2" style="width: 220px; height: 301px;" data-original-width="220" data-original-height="301" >
+                                 <div class="tiled-gallery-item tiled-gallery-item-small" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+                                    <meta itemprop="width" content="216">
+                                    <meta itemprop="height" content="149">
+                                    <img data-attachment-id="120" data-orig-file="https://tonaldemo.files.wordpress.com/2011/07/img_06821.jpg" data-orig-size="1968,1363" data-comments-opened="" data-image-meta="{&quot;aperture&quot;:&quot;2.4&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;iPhone 5&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;1393512464&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;4.12&quot;,&quot;iso&quot;:&quot;400&quot;,&quot;shutter_speed&quot;:&quot;0.05&quot;,&quot;title&quot;:&quot;&quot;}" data-image-title="Tiled wall" data-image-description="" data-medium-file="https://tonaldemo.files.wordpress.com/2011/07/img_06821.jpg?w=300" data-large-file="https://tonaldemo.files.wordpress.com/2011/07/img_06821.jpg?w=640" src="https://tonaldemo.files.wordpress.com/2011/07/img_06821.jpg?w=216&#038;h=149" width="216" height="149" data-original-width="216" data-original-height="149" itemprop="http://schema.org/image" title="Tiled wall" alt="Tiled wall" style="width: 216px; height: 149px;" /> 
+                                 </div>
+                                 <div class="tiled-gallery-item tiled-gallery-item-small" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+                                    <meta itemprop="width" content="216">
+                                    <meta itemprop="height" content="144">
+                                    <img data-attachment-id="121" data-orig-file="https://tonaldemo.files.wordpress.com/2011/07/img_0728.jpg" data-orig-size="1307,871" data-comments-opened="" data-image-meta="{&quot;aperture&quot;:&quot;2.4&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;iPhone 5&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;1393512797&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;4.12&quot;,&quot;iso&quot;:&quot;500&quot;,&quot;shutter_speed&quot;:&quot;0.066666666666667&quot;,&quot;title&quot;:&quot;&quot;}" data-image-title="Guiness Mural" data-image-description="" data-medium-file="https://tonaldemo.files.wordpress.com/2011/07/img_0728.jpg?w=300" data-large-file="https://tonaldemo.files.wordpress.com/2011/07/img_0728.jpg?w=640" src="https://tonaldemo.files.wordpress.com/2011/07/img_0728.jpg?w=216&#038;h=144" width="216" height="144" data-original-width="216" data-original-height="144" itemprop="http://schema.org/image" title="Guiness Mural" alt="Guiness Mural" style="width: 216px; height: 144px;" /> 
+                                 </div>
+                              </div>
+                              <!-- close group --> 
+                           </div>
+                           <!-- close row --> 
+                           <div class="gallery-row" style="width: 640px; height: 264px;" data-original-width="640" data-original-height="264" >
+                              <div class="gallery-group images-1" style="width: 330px; height: 264px;" data-original-width="330" data-original-height="264" >
+                                 <div class="tiled-gallery-item tiled-gallery-item-large" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+                                    <meta itemprop="width" content="326">
+                                    <meta itemprop="height" content="260">
+                                    <img data-attachment-id="123" data-orig-file="https://tonaldemo.files.wordpress.com/2011/07/img_0689.jpg" data-orig-size="1271,1013" data-comments-opened="" data-image-meta="{&quot;aperture&quot;:&quot;2.4&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;iPhone 5&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;1393512496&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;4.12&quot;,&quot;iso&quot;:&quot;64&quot;,&quot;shutter_speed&quot;:&quot;0.016666666666667&quot;,&quot;title&quot;:&quot;&quot;}" data-image-title="Wall" data-image-description="" data-medium-file="https://tonaldemo.files.wordpress.com/2011/07/img_0689.jpg?w=300" data-large-file="https://tonaldemo.files.wordpress.com/2011/07/img_0689.jpg?w=640" src="https://tonaldemo.files.wordpress.com/2011/07/img_0689.jpg?w=326&#038;h=260" width="326" height="260" data-original-width="326" data-original-height="260" itemprop="http://schema.org/image" title="Wall" alt="Wall" style="width: 326px; height: 260px;" /> 
+                                 </div>
+                              </div>
+                              <!-- close group --> 
+                              <div class="gallery-group images-1" style="width: 310px; height: 264px;" data-original-width="310" data-original-height="264" >
+                                 <div class="tiled-gallery-item tiled-gallery-item-large" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+                                    <meta itemprop="width" content="306">
+                                    <meta itemprop="height" content="260">
+                                    <img data-attachment-id="117" data-orig-file="https://tonaldemo.files.wordpress.com/2011/07/img_0618.jpg" data-orig-size="1829,1550" data-comments-opened="" data-image-meta="{&quot;aperture&quot;:&quot;2.4&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;iPhone 5&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;1393511700&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;4.12&quot;,&quot;iso&quot;:&quot;500&quot;,&quot;shutter_speed&quot;:&quot;0.066666666666667&quot;,&quot;title&quot;:&quot;&quot;}" data-image-title="IMG_0618" data-image-description="" data-medium-file="https://tonaldemo.files.wordpress.com/2011/07/img_0618.jpg?w=300" data-large-file="https://tonaldemo.files.wordpress.com/2011/07/img_0618.jpg?w=640" src="https://tonaldemo.files.wordpress.com/2011/07/img_0618.jpg?w=306&#038;h=260" width="306" height="260" data-original-width="306" data-original-height="260" itemprop="http://schema.org/image" title="IMG_0618" alt="IMG_0618" style="width: 306px; height: 260px;" /> 
+                                 </div>
+                              </div>
+                              <!-- close group --> 
+                           </div>
+                           <!-- close row --> 
+                           <div class="gallery-row" style="width: 640px; height: 336px;" data-original-width="640" data-original-height="336" >
+                              <div class="gallery-group images-1" style="width: 640px; height: 336px;" data-original-width="640" data-original-height="336" >
+                                 <div class="tiled-gallery-item tiled-gallery-item-large" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+                                    <meta itemprop="width" content="636">
+                                    <meta itemprop="height" content="332">
+                                    <img data-attachment-id="122" data-orig-file="https://tonaldemo.files.wordpress.com/2011/07/img_0747.jpg" data-orig-size="2529,1322" data-comments-opened="" data-image-meta="{&quot;aperture&quot;:&quot;2.4&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;iPhone 5&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;1393514957&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;4.12&quot;,&quot;iso&quot;:&quot;400&quot;,&quot;shutter_speed&quot;:&quot;0.05&quot;,&quot;title&quot;:&quot;&quot;}" data-image-title="Wallpaper" data-image-description="" data-medium-file="https://tonaldemo.files.wordpress.com/2011/07/img_0747.jpg?w=300" data-large-file="https://tonaldemo.files.wordpress.com/2011/07/img_0747.jpg?w=640" src="https://tonaldemo.files.wordpress.com/2011/07/img_0747.jpg?w=636&#038;h=332" width="636" height="332" data-original-width="636" data-original-height="332" itemprop="http://schema.org/image" title="Wallpaper" alt="Wallpaper" style="width: 636px; height: 332px;" /> 
+                                 </div>
+                              </div>
+                              <!-- close group --> 
+                           </div>
+                           <!-- close row --> 
+                        </div>
+                     </div>
+                     <!-- .center-block .entry-content -->
+                     <footer class="center-block entry-meta">
+                        <span class="posted-on">Posted on <a href="https://tonaldemo.wordpress.com/2011/07/07/textures-from-a-trip-to-dublin/?demo" rel="bookmark"><time class="entry-date published" datetime="2011-07-07T17:03:09+00:00">July 7, 2011</time><time class="updated" datetime="2014-03-08T17:25:35+00:00">March 8, 2014</time></a></span><span class="byline"> by <span class="author vcard"><a class="url fn n" href="https://tonaldemo.wordpress.com/author/themedemos/?demo">Joan Smith</a></span></span>
+                        <span class="cat-links">
+                        Posted in <a href="https://tonaldemo.wordpress.com/category/photos/?demo" rel="category tag">Photos</a>			</span>
+                        <span class="tags-links">Tagged <a href="https://tonaldemo.wordpress.com/tag/beautiful/?demo" rel="tag">beautiful</a>, <a href="https://tonaldemo.wordpress.com/tag/landscape/?demo" rel="tag">landscape</a></span>		
+                     </footer>
+                     <!-- .entry-meta -->
+                  </article>
+                  <!-- #post-## -->
+                  <article id="post-65" class="post-65 post type-post status-publish format-quote hentry category-books category-writing post_format-post-format-quote" data-aos="fade-up" data-aos-delay="300">
+                     <a href="https://tonaldemo.wordpress.com/type/quote/?demo" title="All Quote posts">
+                     <span class="screen-reader-text">Quote</span>
+                     <span class="entry-format icon-block"></span>
+                     </a>
+                     <div class="entry-header fullwidth-block">
+                        <h1 class="entry-title">
+                           <a href="https://tonaldemo.wordpress.com/2011/07/07/pellentesque-habitant-posuere/?demo" rel="bookmark">Everyone is quotable</a>
+                        </h1>
+                     </div>
+                     <!-- .entry-header .fullwidth-block -->
+                     <div class="center-block entry-content">
+                        <blockquote>
+                           <p><span style="line-height:1.5em;">In et purus vitae magna ultricies egestas. Integer vulputate pellentesque nunc, sit amet commodo justo mollis sed! Pellentesque vel sem a magna convallis posuere ac vel ipsum. Quisque rutrum mollis sem in vestibulum. Cras viverra, sapien a commodo convallis, odio orci gravida sem, eget pellentesque leo est nec eros. Aliquam erat volutpat.</span></p>
+                        </blockquote>
+                     </div>
+                     <!-- .center-block .entry-content -->
+                     <footer class="center-block entry-meta">
+                        <span class="posted-on">Posted on <a href="https://tonaldemo.wordpress.com/2011/07/07/pellentesque-habitant-posuere/?demo" rel="bookmark"><time class="entry-date published" datetime="2011-07-07T16:37:23+00:00">July 7, 2011</time><time class="updated" datetime="2014-03-08T17:25:37+00:00">March 8, 2014</time></a></span><span class="byline"> by <span class="author vcard"><a class="url fn n" href="https://tonaldemo.wordpress.com/author/themedemos/?demo">Joan Smith</a></span></span>
+                        <span class="cat-links">
+                        Posted in <a href="https://tonaldemo.wordpress.com/category/books/?demo" rel="category tag">Books</a>, <a href="https://tonaldemo.wordpress.com/category/writing/?demo" rel="category tag">Writing</a>			</span>
+                     </footer>
+                     <!-- .entry-meta -->
+                  </article>
+                  <!-- #post-## -->
+                  <article id="post-63" class="post-63 post type-post status-publish format-image hentry category-wordpress category-writing post_format-post-format-image" data-aos="fade-up" data-aos-delay="300">
+                     <a href="https://tonaldemo.wordpress.com/type/image/?demo" title="All Image posts">
+                     <span class="screen-reader-text">Image</span>
+                     <span class="entry-format icon-block"></span>
+                     </a>
+                     <div class="entry-header fullwidth-block">
+                        <h1 class="entry-title">
+                           <a href="https://tonaldemo.wordpress.com/2011/07/07/every-story-takes-you-somewhere/?demo" rel="bookmark">Every story takes you&nbsp;somewhere</a>
+                        </h1>
+                     </div>
+                     <!-- .entry-header .fullwidth-block -->
+                     <div class="center-block entry-content">
+                        <p><img loading="lazy" data-attachment-id="163" data-permalink="https://tonaldemo.wordpress.com/2011/07/07/every-story-takes-you-somewhere/tumblr_mqq4ml5cht1st5lhmo1_1280/" data-orig-file="https://tonaldemo.files.wordpress.com/2011/07/tumblr_mqq4ml5cht1st5lhmo1_1280.jpg" data-orig-size="1280,851" data-comments-opened="0" data-image-meta="{&quot;aperture&quot;:&quot;6.3&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;NEX-5N&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;1370197474&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;210&quot;,&quot;iso&quot;:&quot;100&quot;,&quot;shutter_speed&quot;:&quot;0.016666666666667&quot;,&quot;title&quot;:&quot;&quot;}" data-image-title="Track" data-image-description="" data-image-caption="" data-medium-file="https://tonaldemo.files.wordpress.com/2011/07/tumblr_mqq4ml5cht1st5lhmo1_1280.jpg?w=300" data-large-file="https://tonaldemo.files.wordpress.com/2011/07/tumblr_mqq4ml5cht1st5lhmo1_1280.jpg?w=640" class="alignnone  wp-image-163" alt="Track" src="https://tonaldemo.files.wordpress.com/2011/07/tumblr_mqq4ml5cht1st5lhmo1_1280.jpg?w=1280&#038;h=851" width="1280" height="851" srcset="https://tonaldemo.files.wordpress.com/2011/07/tumblr_mqq4ml5cht1st5lhmo1_1280.jpg 1280w, https://tonaldemo.files.wordpress.com/2011/07/tumblr_mqq4ml5cht1st5lhmo1_1280.jpg?w=150&amp;h=100 150w, https://tonaldemo.files.wordpress.com/2011/07/tumblr_mqq4ml5cht1st5lhmo1_1280.jpg?w=300&amp;h=199 300w, https://tonaldemo.files.wordpress.com/2011/07/tumblr_mqq4ml5cht1st5lhmo1_1280.jpg?w=768&amp;h=511 768w, https://tonaldemo.files.wordpress.com/2011/07/tumblr_mqq4ml5cht1st5lhmo1_1280.jpg?w=1024&amp;h=681 1024w" sizes="(max-width: 1280px) 100vw, 1280px" /></p>
+                        <p>Massa dui magna donec netus orci sit, venenatis vitae in ligula adipiscing class curae, consequat aenean luctus aliquam elementum mi ornare class eros fringilla dolor potenti habitasse quisque himenaeos aliquam primis, suspendisse purus arcu amet lobortis massa curae venenatis placerat rhoncus aliquam feugiat conubia placerat interdum aenean faucibus, dui odio scelerisque cubilia pulvinar vitae felis, nunc libero fermentum consequat dui curabitur leo inceptos a tempor primis netus aenean cubilia vivamus lobortis non augue faucibus.</p>
+                     </div>
+                     <!-- .center-block .entry-content -->
+                     <footer class="center-block entry-meta">
+                        <span class="posted-on">Posted on <a href="https://tonaldemo.wordpress.com/2011/07/07/every-story-takes-you-somewhere/?demo" rel="bookmark"><time class="entry-date published" datetime="2011-07-07T16:34:51+00:00">July 7, 2011</time><time class="updated" datetime="2014-03-08T17:25:39+00:00">March 8, 2014</time></a></span><span class="byline"> by <span class="author vcard"><a class="url fn n" href="https://tonaldemo.wordpress.com/author/themedemos/?demo">Joan Smith</a></span></span>
+                        <span class="cat-links">
+                        Posted in <a href="https://tonaldemo.wordpress.com/category/wordpress/?demo" rel="category tag">WordPress</a>, <a href="https://tonaldemo.wordpress.com/category/writing/?demo" rel="category tag">Writing</a>			</span>
+                     </footer>
+                     <!-- .entry-meta -->
+                  </article>
+                  <!-- #post-## -->
+                  <article id="post-61" class="post-61 post type-post status-publish format-video hentry category-videos category-wordpress tag-announcement tag-thermonuclear post_format-post-format-video" data-aos="fade-up" data-aos-delay="300">
+                     <a href="https://tonaldemo.wordpress.com/type/video/?demo" title="All Video posts">
+                     <span class="screen-reader-text">Video</span>
+                     <span class="entry-format icon-block"></span>
+                     </a>
+                     <div class="entry-header fullwidth-block">
+                        <h1 class="entry-title">
+                           <a href="https://tonaldemo.wordpress.com/2011/07/07/matt-mullenweg-on-kteh-this-is-us/?demo" rel="bookmark">Letterpress motion</a>
+                        </h1>
+                     </div>
+                     <!-- .entry-header .fullwidth-block -->
+                     <div class="center-block entry-content">
+                        <div class="jetpack-video-wrapper"><span class="embed-youtube" style="text-align:center; display: block;"><iframe class='youtube-player' width='1280' height='720' src='https://www.youtube.com/embed/5l-isw-r8F0?version=3&#038;rel=1&#038;showsearch=0&#038;showinfo=1&#038;iv_load_policy=1&#038;fs=1&#038;hl=en&#038;autohide=2&#038;wmode=transparent' allowfullscreen='true' style='border:0;' sandbox='allow-scripts allow-same-origin allow-popups allow-presentation'></iframe></span></div>
+                     </div>
+                     <!-- .center-block .entry-content -->
+                     <footer class="center-block entry-meta">
+                        <span class="posted-on">Posted on <a href="https://tonaldemo.wordpress.com/2011/07/07/matt-mullenweg-on-kteh-this-is-us/?demo" rel="bookmark"><time class="entry-date published" datetime="2011-07-07T16:27:40+00:00">July 7, 2011</time><time class="updated" datetime="2014-03-08T17:25:41+00:00">March 8, 2014</time></a></span><span class="byline"> by <span class="author vcard"><a class="url fn n" href="https://tonaldemo.wordpress.com/author/themedemos/?demo">Joan Smith</a></span></span>
+                        <span class="cat-links">
+                        Posted in <a href="https://tonaldemo.wordpress.com/category/videos/?demo" rel="category tag">Videos</a>, <a href="https://tonaldemo.wordpress.com/category/wordpress/?demo" rel="category tag">WordPress</a>			</span>
+                        <span class="tags-links">Tagged <a href="https://tonaldemo.wordpress.com/tag/announcement/?demo" rel="tag">announcement</a>, <a href="https://tonaldemo.wordpress.com/tag/thermonuclear/?demo" rel="tag">thermonuclear</a></span>		
+                     </footer>
+                     <!-- .entry-meta -->
+                  </article>
+                  <!-- #post-## -->
+                  <article id="post-59" class="post-59 post type-post status-publish format-quote hentry category-wordpress tag-announcement post_format-post-format-quote" data-aos="fade-up" data-aos-delay="300">
+                     <a href="https://tonaldemo.wordpress.com/type/quote/?demo" title="All Quote posts">
+                     <span class="screen-reader-text">Quote</span>
+                     <span class="entry-format icon-block"></span>
+                     </a>
+                     <div class="entry-header fullwidth-block">
+                        <h1 class="entry-title">
+                           <a href="https://tonaldemo.wordpress.com/2011/07/07/free-and-priceless-at-the-same-time/?demo" rel="bookmark">Free and Priceless at the Same&nbsp;Time</a>
+                        </h1>
+                     </div>
+                     <!-- .entry-header .fullwidth-block -->
+                     <div class="center-block entry-content">
+                        <blockquote>
+                           <p>WordPress is web software you can use to create a beautiful website or blog. We like to say that WordPress is both free and priceless at the same time. <cite>— <a href="http://wordpress.org/">WordPress</a></cite></p>
+                        </blockquote>
+                     </div>
+                     <!-- .center-block .entry-content -->
+                     <footer class="center-block entry-meta">
+                        <span class="posted-on">Posted on <a href="https://tonaldemo.wordpress.com/2011/07/07/free-and-priceless-at-the-same-time/?demo" rel="bookmark"><time class="entry-date published" datetime="2011-07-07T16:20:23+00:00">July 7, 2011</time><time class="updated" datetime="2014-03-08T17:25:43+00:00">March 8, 2014</time></a></span><span class="byline"> by <span class="author vcard"><a class="url fn n" href="https://tonaldemo.wordpress.com/author/themedemos/?demo">Joan Smith</a></span></span>
+                        <span class="cat-links">
+                        Posted in <a href="https://tonaldemo.wordpress.com/category/wordpress/?demo" rel="category tag">WordPress</a>			</span>
+                        <span class="tags-links">Tagged <a href="https://tonaldemo.wordpress.com/tag/announcement/?demo" rel="tag">announcement</a></span>		
+                     </footer>
+                     <!-- .entry-meta -->
+                  </article>
+                  <!-- #post-## -->
+                  <article id="post-57" class="post-57 post type-post status-publish format-image hentry category-books category-writing tag-announcement tag-collaboration tag-panache tag-professional tag-punctilious tag-theme tag-thermonuclear post_format-post-format-image" data-aos="fade-up" data-aos-delay="300">
+                     <a href="https://tonaldemo.wordpress.com/type/image/?demo" title="All Image posts">
+                     <span class="screen-reader-text">Image</span>
+                     <span class="entry-format icon-block"></span>
+                     </a>
+                     <div class="entry-header fullwidth-block">
+                        <h1 class="entry-title">
+                           <a href="https://tonaldemo.wordpress.com/2011/07/07/fusce-neque-enim-cras-amet/?demo" rel="bookmark">Fusce Neque Enim Cras&nbsp;Amet</a>
+                        </h1>
+                     </div>
+                     <!-- .entry-header .fullwidth-block -->
+                     <div class="center-block entry-content">
+                        <p>Fusce a ante nisl, vitae pretium enim. Nunc imperdiet iaculis augue nec porta! Phasellus congue sapien eget libero ornare lobortis. Aliquam sit amet nulla velit, in posuere tellus. Nulla ut orci lorem. Donec in lectus orci, sed dignissim lacus. Praesent lectus diam, sodales at commodo sodales, hendrerit sit amet justo. Morbi a risus urna. Ut in lorem at nisi ultricies semper? Mauris imperdiet sem euismod ligula pulvinar hendrerit.</p>
+                        <p><img loading="lazy" data-attachment-id="167" data-permalink="https://tonaldemo.wordpress.com/2011/07/07/fusce-neque-enim-cras-amet/tumblr_mr80mqgzc31st5lhmo1_1280/" data-orig-file="https://tonaldemo.files.wordpress.com/2011/07/tumblr_mr80mqgzc31st5lhmo1_1280.jpg" data-orig-size="1280,850" data-comments-opened="0" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;}" data-image-title="Bike" data-image-description="" data-image-caption="" data-medium-file="https://tonaldemo.files.wordpress.com/2011/07/tumblr_mr80mqgzc31st5lhmo1_1280.jpg?w=300" data-large-file="https://tonaldemo.files.wordpress.com/2011/07/tumblr_mr80mqgzc31st5lhmo1_1280.jpg?w=640" class="alignnone  wp-image-167" alt="Bike" src="https://tonaldemo.files.wordpress.com/2011/07/tumblr_mr80mqgzc31st5lhmo1_1280.jpg?w=1280&#038;h=850" width="1280" height="850" srcset="https://tonaldemo.files.wordpress.com/2011/07/tumblr_mr80mqgzc31st5lhmo1_1280.jpg 1280w, https://tonaldemo.files.wordpress.com/2011/07/tumblr_mr80mqgzc31st5lhmo1_1280.jpg?w=150&amp;h=100 150w, https://tonaldemo.files.wordpress.com/2011/07/tumblr_mr80mqgzc31st5lhmo1_1280.jpg?w=300&amp;h=199 300w, https://tonaldemo.files.wordpress.com/2011/07/tumblr_mr80mqgzc31st5lhmo1_1280.jpg?w=768&amp;h=510 768w, https://tonaldemo.files.wordpress.com/2011/07/tumblr_mr80mqgzc31st5lhmo1_1280.jpg?w=1024&amp;h=680 1024w" sizes="(max-width: 1280px) 100vw, 1280px" /></p>
+                        <p>Ut nisi nulla, consequat iaculis mollis non, fringilla ut justo. Vestibulum pharetra molestie fringilla. Donec elementum ligula sed turpis commodo tristique. Suspendisse cursus posuere eros at auctor. Nulla facilisi. Sed vitae aliquam orci. Ut lobortis, felis sed viverra egestas, sem velit dapibus mauris, et ullamcorper metus libero vitae elit. Vivamus cras amet.</p>
+                     </div>
+                     <!-- .center-block .entry-content -->
+                     <footer class="center-block entry-meta">
+                        <span class="posted-on">Posted on <a href="https://tonaldemo.wordpress.com/2011/07/07/fusce-neque-enim-cras-amet/?demo" rel="bookmark"><time class="entry-date published" datetime="2011-07-07T16:17:25+00:00">July 7, 2011</time><time class="updated" datetime="2014-03-08T17:25:45+00:00">March 8, 2014</time></a></span><span class="byline"> by <span class="author vcard"><a class="url fn n" href="https://tonaldemo.wordpress.com/author/themedemos/?demo">Joan Smith</a></span></span>
+                        <span class="cat-links">
+                        Posted in <a href="https://tonaldemo.wordpress.com/category/books/?demo" rel="category tag">Books</a>, <a href="https://tonaldemo.wordpress.com/category/writing/?demo" rel="category tag">Writing</a>			</span>
+                        <span class="tags-links">Tagged <a href="https://tonaldemo.wordpress.com/tag/announcement/?demo" rel="tag">announcement</a>, <a href="https://tonaldemo.wordpress.com/tag/collaboration/?demo" rel="tag">collaboration</a>, <a href="https://tonaldemo.wordpress.com/tag/panache/?demo" rel="tag">panache</a>, <a href="https://tonaldemo.wordpress.com/tag/professional/?demo" rel="tag">professional</a>, <a href="https://tonaldemo.wordpress.com/tag/punctilious/?demo" rel="tag">punctilious</a>, <a href="https://tonaldemo.wordpress.com/tag/theme/?demo" rel="tag">theme</a>, <a href="https://tonaldemo.wordpress.com/tag/thermonuclear/?demo" rel="tag">thermonuclear</a></span>		
+                     </footer>
+                     <!-- .entry-meta -->
+                  </article>
+                  <!-- #post-## -->
+                  <article id="post-55" class="post-55 post type-post status-publish format-status hentry category-wordpress tag-announcement tag-theme post_format-post-format-status">
+                     <a href="https://tonaldemo.wordpress.com/type/status/?demo" title="All Status posts" data-aos="fade-up" data-aos-delay="300">
+                     <span class="screen-reader-text">Status</span>
+                     <span class="entry-format icon-block"></span>
+                     </a>
+                     <div class="entry-header fullwidth-block">
+                        <h1 class="entry-title">
+                           <a href="https://tonaldemo.wordpress.com/2011/07/07/taking-shape/?demo" rel="bookmark">Taking Shape</a>
+                        </h1>
+                     </div>
+                     <!-- .entry-header .fullwidth-block -->
+                     <div class="center-block entry-content">
+                        <p>Things are starting to take shape around here. I hope you&#8217;re liking this theme!</p>
+                     </div>
+                     <!-- .center-block .entry-content -->
+                     <footer class="center-block entry-meta">
+                        <span class="posted-on">Posted on <a href="https://tonaldemo.wordpress.com/2011/07/07/taking-shape/?demo" rel="bookmark"><time class="entry-date published" datetime="2011-07-07T16:15:56+00:00">July 7, 2011</time><time class="updated" datetime="2014-03-08T17:25:48+00:00">March 8, 2014</time></a></span><span class="byline"> by <span class="author vcard"><a class="url fn n" href="https://tonaldemo.wordpress.com/author/themedemos/?demo">Joan Smith</a></span></span>
+                        <span class="cat-links">
+                        Posted in <a href="https://tonaldemo.wordpress.com/category/wordpress/?demo" rel="category tag">WordPress</a>			</span>
+                        <span class="tags-links">Tagged <a href="https://tonaldemo.wordpress.com/tag/announcement/?demo" rel="tag">announcement</a>, <a href="https://tonaldemo.wordpress.com/tag/theme/?demo" rel="tag">theme</a></span>		
+                     </footer>
+                     <!-- .entry-meta -->
+                  </article>
+                  <!-- #post-## -->
+               </main>
+               <!-- #main .site-main -->
+            </div>
+            <!-- #primary .content-area -->
+         </div>
+         <!-- #content -->
+         <!-- #colophon .fullwidth-block .site-footer -->
+      </div>
+      <!-- #page -->
+      <style>
+         .footer_img ul li{
+         display: inline-block;
+         margin: 20px 10px;
+         }
+         .footer_img ul li img{
+         width:120px;
+         height: 100px;
+         }
+         .terms_and_condition ul li a{
+         color: #ffffff !important;
+         border-bottom: 1px dashed #ffffff !important;
+         }
+         .terms_and_condition ul li a:hover{
+         border-bottom:none !important;
+         }
+      </style>
+      <!--======  footer area ======-->
+      <footer class="text-center" style="background: rgb(32, 32, 32);">
+         <div class="container">
+            <div class="row">
+               <div class="col-12">
+                  <div class="footer_img">
+                     <ul>
+                        <li><img src="resources/img/curatednewsbloggercredentials.png" alt="blogger" class="img-fluid"></li>
+                        <li><img src="resources/img/curatednewsbloggerdonate.png" alt="blogger" class="img-fluid"></li>
+                        <li><img src="resources/img/curatednewsbloggersponsoredpage.png" alt="blogger" class="img-fluid"></li>
+                     </ul>
+                  </div>
+               </div>
+               <div class="col-12">
+                  <p class="follow">Want to follow us? Check out our <a href="#" class="linkedin">LinkedIn</a>.</p>
+               </div>
+               <div class="col-12">
+                  <div class="terms_and_condition">
+                     <ul>
+                        <li><a href="privacy.html" class="global_btn">Privacy Policy</a></li>
+                        <li><a href="terms.html" class="global_btn">Terms and condition |</a><span> © 2020</span></li>
+                     </ul>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </footer>
+      <!--======  end area ======-->
+      <!-- Back to top button -->
+      <a id="button"></a>
+      <link rel='stylesheet' id='all-css-0-2' href='https://s0.wp.com/_static/??-eJyFy8EKwjAMgOEXMsZNHF7EZ6ltGJlZGpp2Y28vHjwIMo//Dx+uBjFrJa04NzBpI6tjDCU3J0Ff2ajAo2kSOkb3A/4RE1UL8QmfsYcqCyUYgwiV7bv2WCG3rM4LwcKJ8o/z5vf51g39dTj33eU0vQAOP1f4?cssminify=yes' type='text/css' media='all' />
+      <script id='jetpack-carousel-js-extra'>
+         var jetpackSwiperLibraryPath = {"url":"\/wp-content\/mu-plugins\/carousel\/swiper-bundle.js"};
+         var jetpackCarouselStrings = {"widths":[370,700,1000,1200,1400,2000],"is_logged_in":"","lang":"en","ajaxurl":"https:\/\/tonaldemo.wordpress.com\/wp-admin\/admin-ajax.php","nonce":"11b0a151a3","display_exif":"1","display_comments":"1","display_geo":"1","single_image_gallery":"1","single_image_gallery_media_file":"","background_color":"black","comment":"Comment","post_comment":"Post Comment","write_comment":"Write a Comment...","loading_comments":"Loading Comments...","download_original":"View full size <span class=\"photo-size\">{0}<span class=\"photo-size-times\">\u00d7<\/span>{1}<\/span>","no_comment_text":"Please be sure to submit some text with your comment.","no_comment_email":"Please provide an email address to comment.","no_comment_author":"Please provide your name to comment.","comment_post_error":"Sorry, but there was an error posting your comment. Please try again later.","comment_approved":"Your comment was approved.","comment_unapproved":"Your comment is in moderation.","camera":"Camera","aperture":"Aperture","shutter_speed":"Shutter Speed","focal_length":"Focal Length","copyright":"Copyright","comment_registration":"0","require_name_email":"1","login_url":"https:\/\/tonaldemo.wordpress.com\/wp-login.php?redirect_to=https%3A%2F%2Ftonaldemo.wordpress.com%2F2014%2F03%2F07%2Fsetting-the-mood%2F","blog_id":"65282072","meta_data":["camera","aperture","shutter_speed","focal_length","copyright"],"stats_query_args":"blog=65282072&v=wpcom&tz=0&user_id=0&subd=tonaldemo","is_public":"0"};
+      </script>
+      <script crossorigin='anonymous' type='text/javascript' src='https://s0.wp.com/_static/??-eJyNkN1OwzAMRl8IL2PSmLhAPEuauMVt/hQ7DXt7somiUqaKO39OzokdVROYGASDqJGVxZkMps/DyE9qdeQLJFcGCqwo9BRIrj/F9q58oEdWqXRKYtDu5uWJEjgKE/TRFIae/jzxCLsXO7NUsgMKKyztNE6E4HRVgj45Lbjp73i09RSg01l5zYK5VSBZm4kXiIJxxTZlm6pF9B3aQ4N2pEbnWBjbIiipuWBp7DBCDi0M2jnM199ph8rIKQamGWEmi/FBZz3reheufexGNLLVL+47rjTz7Z/H75yan/+xOtRkot/Exr37t+eX0+vxcjkdz+MXrHLx0A=='></script>
+      <script type="text/javascript">
+         // <![CDATA[
+         (function() {
+         try{
+           if ( window.external &&'msIsSiteMode' in window.external) {
+             if (window.external.msIsSiteMode()) {
+               var jl = document.createElement('script');
+               jl.type='text/javascript';
+               jl.async=true;
+               jl.src='/wp-content/plugins/ie-sitemode/custom-jumplist.php';
+               var s = document.getElementsByTagName('script')[0];
+               s.parentNode.insertBefore(jl, s);
+             }
+           }
+         }catch(e){}
+         })();
+         // ]]>
+      </script><script type="text/javascript">
+         (function() {
+         	var extend = function(out) {
+         		out = out || {};
+         
+         		for (var i = 1; i < arguments.length; i++) {
+         			if (!arguments[i])
+         			continue;
+         
+         			for (var key in arguments[i]) {
+         			if (arguments[i].hasOwnProperty(key))
+         				out[key] = arguments[i][key];
+         			}
+         		}
+         
+         		return out;
+         	};
+         	extend( window.infiniteScroll.settings.scripts, ["jquery-core","jquery-migrate","jquery","jetpack-iframe-embed","postmessage","mobile-useragent-info","rlt-proxy","grofiles-cards","wpgroho","devicepx","the-neverending-homepage","tonal-skip-link-focus-fix","tonal-scripts","eu-cookie-law-script","wpcom-masterbar-tracks-js","wp-embed","jetpack-carousel","tiled-gallery","jetpack-responsive-videos-min-script","swfobject","videopress","carousel-wpcom"] );
+         	extend( window.infiniteScroll.settings.styles, ["wpcom-smileys","the-neverending-homepage","wp-block-library","mediaelement","wp-mediaelement","jetpack-layout-grid","jetpack-ratings","coblocks-frontend","wpcom-core-compat-playlist-styles","wpcom-text-widget-styles","wpcom-bbpress2-staff-css","tonal-style","genericons","tonal-dark","tonal-wpcom-style","eu-cookie-law-style","geo-location-flair","reblogging","a8c-global-print","h4-global","tonal-font","jetpack-global-styles-frontend-style","jetpack-carousel-swiper-css","jetpack-carousel","tiled-gallery","jetpack-responsive-videos-style"] );
+         })();
+      </script>
+      <span id="infinite-aria" aria-live="polite"></span>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+      <script src="vendors/js/bootstrap.min.js"></script>
+      <script src="vendors/js/aos.js"></script>
+      <script src="resources/js/app.js"></script>
+      <script>
+         if ( 'object' === typeof wpcom_mobile_user_agent_info ) {
+         
+         	wpcom_mobile_user_agent_info.init();
+         	var mobileStatsQueryString = "";
+         	
+         	if( false !== wpcom_mobile_user_agent_info.matchedPlatformName )
+         		mobileStatsQueryString += "&x_" + 'mobile_platforms' + '=' + wpcom_mobile_user_agent_info.matchedPlatformName;
+         	
+         	if( false !== wpcom_mobile_user_agent_info.matchedUserAgentName )
+         		mobileStatsQueryString += "&x_" + 'mobile_devices' + '=' + wpcom_mobile_user_agent_info.matchedUserAgentName;
+         	
+         	if( wpcom_mobile_user_agent_info.isIPad() )
+         		mobileStatsQueryString += "&x_" + 'ipad_views' + '=' + 'views';
+         
+         	if( "" != mobileStatsQueryString ) {
+         		new Image().src = document.location.protocol + '//pixel.wp.com/g.gif?v=wpcom-no-pv' + mobileStatsQueryString + '&baba=' + Math.random();
+         	}
+         	
+         }
+      </script>
+      <!-- Code injected by live-server -->
+      <script type="text/javascript">
+         // <![CDATA[  <-- For SVG support
+         if ('WebSocket' in window) {
+         	(function () {
+         		function refreshCSS() {
+         			var sheets = [].slice.call(document.getElementsByTagName("link"));
+         			var head = document.getElementsByTagName("head")[0];
+         			for (var i = 0; i < sheets.length; ++i) {
+         				var elem = sheets[i];
+         				var parent = elem.parentElement || head;
+         				parent.removeChild(elem);
+         				var rel = elem.rel;
+         				if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+         					var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+         					elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+         				}
+         				parent.appendChild(elem);
+         			}
+         		}
+         		var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+         		var address = protocol + window.location.host + window.location.pathname + '/ws';
+         		var socket = new WebSocket(address);
+         		socket.onmessage = function (msg) {
+         			if (msg.data == 'reload') window.location.reload();
+         			else if (msg.data == 'refreshcss') refreshCSS();
+         		};
+         		if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+         			console.log('Live reload enabled.');
+         			sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+         		}
+         	})();
+         }
+         else {
+         	console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+         }
+         // ]]>
+      </script>
+   </body>
+</html>

@@ -259,18 +259,6 @@ header
 	color: #fff;
 }
 
-.background-header .nav li a.active:after {
-	position: absolute;
-	width: 20px;
-	height: 2px;
-	background-color: #4771cb;
-	content: "";
-	left: 50%;
-	bottom: 0px;
-	-webkit-transform: translateX(-10px);
-	-ms-transform: translateX(-10px);
-	transform: translateX(-10px);
-}
 
 .header-area {
 	position: absolute;
